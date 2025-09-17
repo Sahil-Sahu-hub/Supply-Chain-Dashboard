@@ -19,7 +19,7 @@ The business faced a fragmented view of supply chain performance, with **40% of 
 - Improve bottom-decile sales rep completion rates by ≥20 percentage points.
 
 ## Dataset
-Data sources aggregated from ERP logs, sales systems.
+Data sources aggregated from kaggle, sales systems.
 
 ## Key Insights
 

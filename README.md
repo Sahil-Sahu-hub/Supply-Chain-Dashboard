@@ -19,11 +19,26 @@ The business faced a fragmented view of supply chain performance, with **40% of 
 - Improve bottom-decile sales rep completion rates by ≥20 percentage points.
 
 ## Dataset
-Data sources aggregated from ERP logs, sales systems, and enriched with carrier metadata.
+Data sources aggregated from ERP logs, sales systems.
 
-**Schema Example (CSV/Relational):**
-```csv
-shipment_id, order_id, region, country, product_category, shipment_date, delivery_date, status, revenue, sales_rep_id, carrier, return_reason
-10001, 501, APAC, Australia, Electronics, 2023-01-05, 2023-01-11, Returned, 350, SR102, DHL, Damaged in Transit
-10002, 502, NA, Canada, Office Equipment, 2023-01-07, 2023-01-09, Completed, 220, SR054, FedEx, 
-...
+## Key Insights
+
+* Australia’s Return Crisis: 6.8% return rate vs. 1.1% in Canada; $25K annual liability.
+
+* Completion Gap: Only 62% shipments completed; 38% revenue stuck in limbo.
+
+* Electronics Volatility: 46% revenue but 68% returns; packaging and last-mile handling are root causes.
+
+* Office Equipment Potential: Low return (9%) but only 22% revenue; marketing push could lift turnover.
+
+* Rep Performance Chasm: Top reps hit 92% completion and $14K/month, bottom 20% at 50% completion.
+
+## Future Work
+
+Implement anomaly detection for real-time return spikes.
+
+## Author & Contact
+
+Author: Sahil Sahu – Data Analyst
+
+Email: sahilsahu20aug@gmail.com
